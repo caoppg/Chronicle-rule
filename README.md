@@ -11,11 +11,11 @@ Some input data sets are in the "data" folder under the project root dictionary.
 ## Some examples
 The figure below demonstrates how the rule that describes different events and temporal constraints can be constructed from a chronicle. Within the rule, *Chronicle* stands for the root class of all the chronicle individuals in the ontology. *hasEvent* is the object property that links individuals of the class *Chronicle* and those under the class *Event*. *hasA1V*, *hasA2V*, *hasA3V*, and *hasA4V* are data properties that assign quantitative values of attributes to the two individuals A and B under the *Event* class. *TimeInterval* corresponds to the root class of all individuals of time intervals. 
 
-![Alt text](https://github.com/caoppg/Chronicle-rule/blob/master/Screemshots/Chroniclefailure.png?raw=true "Chronicle to a rule")
+![Alt text](https://github.com/caoppg/Chronicle-rule/blob/master/Screemshots/Chroniclefailure.png| width=48 "Chronicle to a rule")
 
 The temporal constraints comprise the minimum time duration between an event with the failure, described by the data property hasMinF, and the maximum time duration between an event with the failure, described by another data property hasMaxF. The result of another rule generation is shown in the figure below. In this rule, hasA58V, hasA63V, hasA64V, hasA102V, hasA204V, hasA209V, hasA347V, hasA476V are data properties in the MPMO ontology that link individuals of the Event class with XML Schema Datatype values.
 
-![Alt text](https://github.com/caoppg/Chronicle-rule/blob/master/Screemshots/ScreenshotCF5.JPG?raw=true "Chronicle to a rule in software")
+![Alt text](https://github.com/caoppg/Chronicle-rule/blob/master/Screemshots/ScreenshotCF5.JPG| width=48 "Chronicle to a rule in software")
 
 ## The ontology reasoning and failure prediction GUI
 Failure prediction is achieved by using the [Drools rule engine](https://www.drools.org/) to perform ontology reasoning on the data that is populated in the domain ontologies. After prediction, a SQWRL query is created to retrieve the prediction results. The SQWRL language takes an antecedent of a SWRL rule and effectively treats it as a pattern specification for a query. To extract the results, a SQWRL query replaces a rule consequent with a retrieval specification.
