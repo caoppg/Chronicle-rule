@@ -1,7 +1,7 @@
 # Chronicle-rule
 Codes for the paper ["Combining Chronicle Mining and Semantics for Predictive Maintenance in Manufacturing Processes"](http://www.semantic-web-journal.net/content/combining-chronicle-mining-and-semantics-predictive-maintenance-manufacturing-processes-1), published at the [Semantic Web Journal](http://www.semantic-web-journal.net/).
 
-The running of the software starts with the frequent chronicle mining process, after which a set of frequent chronicles are extracted from data. Frequent chronicle mining has is applied to industrial data sets for extracting temporal information of events and to predict potential machinery failures. 
+The running of the software starts with the frequent chronicle mining process, after which a set of frequent chronicles are extracted from data. Frequent chronicle mining has is applied to industrial data sets for extracting temporal information of events and to predict potential machinery failures. More details on frequent chronicle mining can be referred in the paper [On mining frequent chronicles for machine failure prediction](https://link.springer.com/article/10.1007/s10845-019-01492-x).
 
 To use domain ontologies and rules for failure prediction, a novel algorithm is developed and implemented in the codes to generate predictive [Semantic Web Rule Language(SWRL)](https://www.w3.org/Submission/SWRL/) rules. The generated rules are constructed for predicting the occurrence time of machinery failures in the future. The proposed rules provide explicit knowledge representation and semantic enrichment of failure prediction results, thus easing the understanding of the inferred knowledge. 
 
