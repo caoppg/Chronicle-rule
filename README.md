@@ -17,7 +17,7 @@ The temporal constraints comprise the minimum time duration between an event wit
 
 <img src="https://github.com/caoppg/Chronicle-rule/blob/master/Screemshots/ScreenshotCF5.JPG" width="500">
 
-## The ontology reasoning and failure prediction GUI
+## Ontology reasoning for failure prediction 
 Failure prediction is achieved by using the [Drools rule engine](https://www.drools.org/) to perform ontology reasoning on the data that is populated in the domain ontologies. After prediction, a SQWRL query is created to retrieve the prediction results. The SQWRL language takes an antecedent of a SWRL rule and effectively treats it as a pattern specification for a query. To extract the results, a SQWRL query replaces a rule consequent with a retrieval specification.
 
 ## Built with
